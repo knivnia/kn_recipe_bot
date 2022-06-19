@@ -215,8 +215,6 @@ def main():
 
     updater.dispatcher.add_handler(CallbackQueryHandler(
         recipe_menu, pattern='recipe'))
-    # updater.dispatcher.add_handler(CallbackQueryHandler(
-    #     get_recipe, pattern='recipe'))
 
     updater.start_polling()
     updater.idle()
