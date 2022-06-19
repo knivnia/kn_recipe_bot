@@ -13,7 +13,7 @@ from telegram.ext import (
     MessageHandler,
     Updater
 )
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 
 logger = logging.getLogger(__name__)
