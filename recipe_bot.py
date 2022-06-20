@@ -13,7 +13,7 @@ from telegram.ext import (
     MessageHandler,
     Updater
 )
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 
 logger = logging.getLogger(__name__)
@@ -215,8 +215,6 @@ def main():
 
     updater.dispatcher.add_handler(CallbackQueryHandler(
         recipe_menu, pattern='recipe'))
-    # updater.dispatcher.add_handler(CallbackQueryHandler(
-    #     get_recipe, pattern='recipe'))
 
     updater.start_polling()
     updater.idle()
