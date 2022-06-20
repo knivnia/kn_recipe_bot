@@ -136,6 +136,7 @@ def wake_up(update, context):
     context.user_data['meal'] = []
     context.user_data['dish'] = []
     context.user_data['cuisine'] = []
+    context.user_data['ingridients'] = []
     context.user_data['recipes'] = []
     chat = update.effective_chat
     name = update.message.chat.first_name
