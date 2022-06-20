@@ -451,7 +451,7 @@ def get_recipe(update, context):
     logger.info('Searching recipes.')
     chat = update.effective_chat
     ingridients = context.user_data.get('ingridients')
-    if ingridients is None:
+    if len(ingridients) == 0:
         context.bot.send_message(
             chat_id=chat.id,
             text='Enter at least one ingridient!'
