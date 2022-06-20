@@ -1,0 +1,1 @@
+worker: python recipe_bot.py
