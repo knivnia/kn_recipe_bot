@@ -8,3 +8,9 @@ This bot will help you to find the recipe that matches your set of ingridients, 
 - also you can choose options in menus: diet, health, meal type, dish type, cuisine type
 - tap on button "find recipe"
 - you can accept offered recipe, choose another or start new search
+
+## Author
+
+Kseniia Nivnia
+
+June 2022
