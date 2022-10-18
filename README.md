@@ -12,5 +12,4 @@ This bot will help you to find the recipe that matches your set of ingridients, 
 ##### Author
 
 Kseniia Nivnia
-
 June 2022
